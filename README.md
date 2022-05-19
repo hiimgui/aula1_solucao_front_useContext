@@ -1,48 +1,21 @@
 # Formulario Centro Pokemon
 
-Bienvenidos al primer proyecto integrador de la materia de especialización en
-Frontend I. En esta oportunidad, ayudaremos a nuestro amigo Ash a construir un
-formulario para que los entrenadores puedan atender a sus pokemons en el nuevo centro
-que Ash tiene en pueblo paleta.
-
-## ¡Comenzamos!
-
-Una vez clonado el repositorio, lo primero que debemos hacer es instalar las dependencias.
-Para ello puedes utilizar alguno de los siguientes comandos:
+estudo de useContext
 
 ```
 npm install
 ```
 
-o
-
-```
-yarn install
-```
-
-Luego, puedes iniciar el proyecto con los comandos
 
 ```
 npm start
 ```
 
-o
+## Primeros passos
 
-```
-yarn start
-```
 
-Ahora, tu proyecto se encontrará en la siguiente url: [http://localhost:3000](http://localhost:3000).
+- Criar um contexto e um provider({children}).
+- inside the provider, declare the functions and states that the app are going to use. in this case its
+- formulario which takes an {object} with a few key:value
+- and handleInputBlur which takes the inputValue as an argument, stores it in an object.
 
-## Primeros pasos
-
-Recuerda que el objetivo de esta clase es que puedas agregar la lógica necesaria para implementar:
-
-- Un estado local, que te permita controlar el valor de cada input, y
-- Un estado global, para poder compartir el valor de los inputs con el formulario
-  de vista previa.
-
-A lo largo del código, encontrarás algunos comentarios y sugerencias que te orientarán
-acerca de los pasos necesarios para completar la actividad.
-
-¡Manos a la obra!
